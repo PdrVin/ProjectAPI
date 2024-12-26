@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ProjectAPI.Models;
 
 [Table("Products")]
-class Product
+public class Product
 {
     [Key]
     public int Id { get; set; }
